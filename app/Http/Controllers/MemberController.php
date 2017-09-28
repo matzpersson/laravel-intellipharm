@@ -40,10 +40,6 @@ class MemberController extends Controller
 
     
     public function signups() {
-        //$query = Member::select('joined_date')->get()->groupBy(function($date) {
-        //        return Carbon::parse($date->joined_date)->format('Y'); // grouping by years
-                //return Carbon::parse($date->created_at)->format('m'); // grouping by months
-        //    }); 
 
         $query = Member::select(\DB::raw('count(*) as count, YEAR(joined_date) as label'))->groupBy('label')->get();
         return response()->json( $query );
