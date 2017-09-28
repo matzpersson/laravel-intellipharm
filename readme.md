@@ -32,3 +32,25 @@ Generate the Artisan key:
 ````ruby
 php artisan key:generate
 ````
+
+Migrate the tables and seed the database:
+````ruby
+php artisan migrate:refresh --seed
+````
+
+Install Vue2 components listed in package.json:
+````ruby
+npm install
+````
+
+Use two tabs. Run NPM hot watch on one:
+````ruby
+npm run watch
+````
+
+and serve the application with artisan:
+````ruby
+php artisan serve
+````
+
+You should now be able to browse this app on http://localhost:8000. You will need to register first and then login to see the CRUD application.
