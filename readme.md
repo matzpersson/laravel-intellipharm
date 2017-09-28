@@ -3,8 +3,8 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## Laravel Vue2 Crud
-This is a plain, un-authenticated SPA Crud application with Laravel Rest Api on the back. Rest API can be consumed from this application or directly onto the API. The front-end uses Vue2 Javascript framework. Styling is with Bootstrap.
+## Laravel Vue2 Members 
+This is a plain, un-authenticated SPA single listview with Laravel Rest Api on the back. Rest API can be consumed from this application or directly onto the API. The front-end uses Vue2 Javascript framework. Styling is with Bootstrap.  <a href="intellipharm.headstation.com">Live demo here</a>
 
 ## Installation
 Clone or Download this repo. These instructions assume that you have installed Composer, Laravel 5.5, PHP7, Node Package Manager and MySQL.
