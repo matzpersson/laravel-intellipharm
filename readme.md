@@ -33,7 +33,7 @@ Generate the Artisan key:
 php artisan key:generate
 ````
 
-Migrate the tables and seed the database:
+Migrate the tables and seed the database. Adds about 100 members with random data:
 ````ruby
 php artisan migrate:refresh --seed
 ````
@@ -54,3 +54,9 @@ php artisan serve
 ````
 
 You should now be able to browse this app on http://localhost:8000. 
+
+## Rest API
+Api can be consumed directly. Following is an example of a call to retrieve all members.
+````ruby
+http://localhost:8000/api/members
+````
