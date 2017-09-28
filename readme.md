@@ -60,3 +60,13 @@ Api can be consumed directly. Following is an example of a call to retrieve all 
 ````ruby
 http://localhost:8000/api/members
 ````
+
+The Api have a pagination end-point with filter capability: Access pagination with:
+````ruby
+http://localhost:8000/api/members/paginate
+````
+
+or filtered across firstname, surname and email:
+````ruby
+http://localhost:8000/api/members/paginate?filter=Alan
+````
