@@ -56,7 +56,7 @@ php artisan serve
 You should now be able to browse this app on http://localhost:8000. 
 
 ## Rest API
-Api can be consumed directly. Following is an example of a call to retrieve all members.
+Api can be consumed directly. Following is an example of a call to retrieve all members returning a JSON set.
 ````ruby
 http://localhost:8000/api/members
 ````
