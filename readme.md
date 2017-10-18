@@ -19,13 +19,14 @@ Create a new mysql database:
 ````ruby
 mysql -u root -p
 create database laravel_vue2_crud;
-CREATE USER 'homestead'@'%' IDENTIFIED BY 'secret';
+CREATE USER 'homestead'@'%' IDENTIFIED BY '<yoursecret>';
 grant all privileges on *.* to 'homestead'@'%';
 ````
 
 Copy .env.example to .env and change the database variable in .env:
 ````ruby
 DB_DATABASE=laravel_vue2_crud
+DB_PASSWORD=<yoursecret>
 ````
 
 Generate the Artisan key:
